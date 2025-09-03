@@ -1,0 +1,128 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f04efb5f-1726-4723-a7b1-85f9f68c0e2f\",\"columns\":[{\"UUID\":\"ee6d41a7-1f64-4c71-b4fd-a371a9469b74\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "10px",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"02e14ed5-dd0f-4aeb-8540-9a7be16b3273\",\"columns\":[{\"UUID\":\"464ad763-c711-4170-96dd-57972f47557f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d48b4407-9172-46e1-baa8-338f4b154c04\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "horizontalAlignment" : "center",
+                    "size" : "standard",
+                    "text" : "Login With Biometrics",
+                    "type" : "primary",
+                    "width" : "standard"
+                  },
+                  "definition" : "mobile_publisher_container:biometricsButton",
+                  "id" : "30fb3730-c3f4-4b36-9713-d78696dfddb4",
+                  "type" : "component"
+                } ],
+                "id" : "464ad763-c711-4170-96dd-57972f47557f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "bannerBackgroundColor" : "",
+                    "bannerPosition" : "top",
+                    "bannerSizePercent" : 35,
+                    "borderRadius" : 20,
+                    "boxShadow" : true,
+                    "haveBanner" : false,
+                    "iconBackgroundColor" : "rgb(255,255,255)",
+                    "iconSize" : "medium",
+                    "noImageColor" : "rgb(116,116,116)",
+                    "overlay" : "rgba(0,0,0,0.01)",
+                    "templateType" : "default",
+                    "tileMenuEditor" : "Default_Navigation3",
+                    "titleColor" : "",
+                    "titleFontSize" : "medium",
+                    "titleHorizontalAlign" : "center"
+                  },
+                  "definition" : "community_navigation:tileMenu",
+                  "id" : "79df8200-389b-4d37-af1f-b6cacd273c71",
+                  "type" : "component"
+                } ],
+                "id" : "d48b4407-9172-46e1-baa8-338f4b154c04",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "02e14ed5-dd0f-4aeb-8540-9a7be16b3273",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\"><div style=\"background-image: url(assets/img/desert.svg) !important; background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div><h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> <div>Drag and drop a component into the content slots.</div></div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9b4a00fd-3717-4dac-a29f-ecfa3c4af633",
+              "type" : "component"
+            } ],
+            "id" : "ee6d41a7-1f64-4c71-b4fd-a371a9469b74",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f04efb5f-1726-4723-a7b1-85f9f68c0e2f",
+          "type" : "component"
+        } ],
+        "id" : "f1fd3f38-1f66-43d9-9d60-91bcc1a4148c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ea13b2f7-62bc-477e-86d0-0e75cd6e60c4",
+          "type" : "component"
+        } ],
+        "id" : "022e934e-e81c-4182-904e-94e55b04350b",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "30d77fbb-0b42-42a8-a765-0a256dec3d84",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}
