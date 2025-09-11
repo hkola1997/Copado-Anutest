@@ -1,0 +1,4 @@
+<apex:page >
+    <h1>Hello, welcome to my first Salesforce Site!</h1>
+    <p>This is a very simple public site.</p>
+</apex:page>
