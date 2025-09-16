@@ -388,6 +388,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>customfield1commit1__c</fullName>
+        <externalId>false</externalId>
+        <label>customfield1commit1</label>
+        <length>44</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>customfieldhari1__c</fullName>
         <externalId>false</externalId>
         <label>customfieldhari1</label>
